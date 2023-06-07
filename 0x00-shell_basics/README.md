@@ -1,1 +1,1 @@
-Shell basics
+practise on scripts
