@@ -1,2 +1,2 @@
 #!/bin/bash
-find hello -user guillaume -exec chmod betty {} +
+stat -c "%U" hello = "guillaume" && chmod betty hello
