@@ -1,0 +1,2 @@
+#!/bin/bin
+find . ".js -type f -exec rm {} +
