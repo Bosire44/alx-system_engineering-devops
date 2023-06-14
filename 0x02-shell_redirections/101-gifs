@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f \( -name "*.gif" -o -name ".*.gif" \) |rev | cut -d "/" -f1 |cut -c 1-4 --complement | rev | sort -df
+find . -type f \( -name "*.gif" -o -name ".*.gif" \) |rev | cut -d "/" -f1 |cut -c 1-4 --complement | rev | sort -bf
